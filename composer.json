@@ -1,0 +1,27 @@
+{
+    "name": "psr/event-dispatcher-task",
+    "description": "Standard interfaces for task handling.",
+    "type": "library",
+    "keywords": ["psr", "psr-14", "events", "tasks"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP-FIG",
+            "homepage": "http://www.php-fig.org/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "psr/event-dispatcher": ">=0.6.0, <1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Psr\\EventDispatcher\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
